@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Installation}{1}{subsection.1.1}
+\contentsline {section}{\numberline {2}METHOD}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Block Diagram of running model}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}ROSCORE}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}ROS Nodes (Plugins)}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Teleop Node Robot Control with Rviz}{9}{subsection.2.4}
+\contentsline {section}{\numberline {3}OUTCOMES}{10}{section.3}
+\contentsline {section}{\numberline {4}CONCLUSIONS}{10}{section.4}
