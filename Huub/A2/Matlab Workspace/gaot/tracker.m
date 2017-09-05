@@ -1,22 +1,22 @@
-function[sol,val]=tsp(sol,~)
+function[sol,val]=tsp(sol,~);
 global distMatrix points dist; %Globals -
 
 %Please input a speed for the runner
-speed=5;
+speed=3;
 
 %Initial setup
 dist=0;
-points=0;
+points=-1000;
 %First position assigned
 loc1=1;
 numvars=size(sol,2)-1;
 
-%Start Loop
+%Start Loop 
 for z=1:numvars
     %Current location assigned popyt
     loc2=sol(z);
     %New distance added to the total
-    dist=dist+distMatrix(loc2,loc1);
+    dist=dist+distMatrix(loc1,loc2);
     if loc2==1
         %Completed cycle, location semetric - and exit
         break

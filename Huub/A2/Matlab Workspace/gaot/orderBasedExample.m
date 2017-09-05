@@ -1,4 +1,4 @@
-echo on
+echo off
 % This script shows how to use the ga using an order-based representation. 
 % You should see the demos for
 % more information as well. gademo1, gademo2, gademo3
@@ -7,8 +7,8 @@ global distMatrix
 
 % Open the matrices for distance from initial position, and between
 % control points
-t=importdata('short_dist.xlsx');     
-distMatrix = importdata('init_dist.xlsx');
+t=importdata('centerPoints.xlsx');     
+distMatrix = importdata('distance.xlsx');
 
 % Define and assign the matrix for shortest distance 
 sz=size(t,1);
@@ -23,7 +23,7 @@ sz=size(t,1);
 % singleptXover.m        
 % uniformXover.m         
 
-xFns = 'cyclicXover uniformXover partmapXover orderbasedXover '
+xFns = 'cyclicXover uniformXover partmapXover orderbasedXover ';
 xFns =[xFns,'singleptXover linerorderXover'];
 % xFns = [xFns,'enhancederXover linerorderXover']
 % xFns = [xFns,'linerorderXover singleptXover']
@@ -41,7 +41,7 @@ mOpts = [2;2;2;2;2];
 
 % Termination Operators
 termFns = 'maxGenTerm';
-termOps = [100]; % 200 Generations
+termOps = [25000]; % 200 Generations
 
 % Selection Function
 selectFn = 'normGeomSelect';
@@ -51,7 +51,7 @@ selectOps = [0.08];
 evalFn = 'tracker';
 evalOps = [];
 
-type tracker
+%type tracker;
 
 % Bounds on the number of cities in the TSP
 bounds = [sz];
@@ -70,6 +70,7 @@ pause
 
 % x is the best solution found
 x
+BestValue = 1000 +x(end)
 %Hit a return to continue
 pause
 

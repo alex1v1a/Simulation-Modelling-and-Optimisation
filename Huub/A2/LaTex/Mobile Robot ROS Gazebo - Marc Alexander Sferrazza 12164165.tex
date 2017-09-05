@@ -109,7 +109,7 @@ The constraints and limitations indicate that a runner must remain on the yellow
 \clearpage
 \section{METHOD}
 
-The Matlab model to be presented is based on Setup Code* > Opt Function > Objective function* 
+The Matlab model to be presented is based on Setup Code*, Opt Function, Objective function* 
 
 After locating the control points on the map and their respective distances to one another on a legal term based from the constraints; the points are then translated to an array matrix which can be used to easily lay all possible distances to each point in all combinations, of which 729 terms are found.
 
@@ -144,17 +144,42 @@ The adaptive aspect of the function loops and gets results for every iteration i
 
 The penalties are then deducted from the total score after the 60 min time limit is reached, a 2 point reduction is taken per 30 seconds the runner returns late. (Please refer to fig. tracker with commentary for further details)
 
-A full code snippet has been provided in the appendix for full step by step details please review comments.
+A full code snippet has been provided in the appendix for full step by step details please review comments, also a full version of the .m files have been attached for reference.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \subsection{Optimisation Process}
+Using the GAOT toolbox there is a function to process optimisation based on a genetic algorithm technique. The orderBasedExample.m and tspEval.m files have been modified to fit the model accordingly. 
+
+By loading the array of data points (distances between coordinates) that have been found on the orienteering map, it is then necessary to use the y axis's size in order to calculate the bounds. 
+
+To begin the sequence a route must be chosen, this is done in the startpop variable where the initalizeoga function is called, which passes back 200 randomly selected routes.
+
+With this method it is possible to set the limit of how many trials will be simulated, this can be done using the termOps variable and will be the suggestion of the amount of generations to simulate which are 20 in this case.
+
+The tspEval function has been modified to score the populations results and find the best values, doing so based on previous trials values to be selected from the genetic algorithm, in this instance the function has been named tracker to be called be the orberBasedExample.m
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearpage
 \section{RESULTS}
 
+The genetic algorithm finds the best possible path (this result may vary due to the nature of the algorithm), and the tracker function calculates the score for each path. The outputs given from the ga function are ga, x, endpop, bestpop, and trace - x is a 29 bit array of the 28 steps taken along the optimal path found for this population set and trial at hand. The last value in the set is the relevant score for the path.
+
+The following arguments received, endPop (generations 200x29) for finding the combination of the best score for this route, bestPop (possible results), and trace which gives information such as mean and standard deviation of the generations along with the best score. 
+
+%\begin{figure}[H]
+%  \includegraphics[width=\linewidth, center]{images/score}
+%  \caption{Results produced from Matlab, scores}
+%  \label{fig:Results produced from Matlab, scores}
+%\end{figure}
+
+A mapped figure of the paths are shown below. The trail of dotted blue indicates each generations path, while the red shows the optimal path.
+
+%\begin{figure}[H]
+%  \includegraphics[width=\linewidth, center]{images/path}
+%  \caption{A map of paths taken and best path found}
+%  \label{fig:A map of paths taken and best path found}
+%\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -164,14 +189,14 @@ A full code snippet has been provided in the appendix for full step by step deta
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\clearpage
 \section{CONCLUSIONS}
 
-For any progress related to the report please see the public Github repo for alex1v1a or use the link in the cover page to be automatically redirected to this project. The repo provides all relative project information
+For any progress related to the assignment please see the public Github repo for alex1v1a or use the link in the cover page to be automatically redirected to this project. The repo provides all relative project information.
 
-I have come to a further understanding learned the fundamentals of ROS with the use of such simulation tools like Gazebo. I am aware of other simulation tools available but due to the community support this is a great place to start. The use of plugins with models to be controlled by the teleop python script is used in calibration with the rviz graphical output to help visualise the robots (models) sight.
+Using the genetic algorithm it is feasible to find optimal results for a given population input, which can be applied to a vast range of scenarios from things small like DNA, or larger groups as talked about in this example. The implementation of this algorithm and inputs passed to the functions are used to find the optimal path for an orienteering runner are generated to provide the highest results provided the highest score is achieved in the fastest time. 
 
-This is a powerful tool and from the basic level of understanding is an extremely vital aspect of the mechatronics processing, it is a great skill to learn.
+The results give the optimal values for this particular solution to the effect of which are suitable for only this example. The process can be run for different instances by adjusting the population and trial values but the distances for each control point remain the same therefore the method used may not be the most efficient for this example as the distances are fixed along with the speed, points and other remaining factors of the example.               
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
