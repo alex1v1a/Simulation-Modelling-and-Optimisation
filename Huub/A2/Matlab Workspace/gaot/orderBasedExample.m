@@ -41,7 +41,7 @@ mOpts = [2;2;2;2;2];
 
 % Termination Operators
 termFns = 'maxGenTerm';
-termOps = [25000]; % 200 Generations
+termOps = [10000]; % 200 Generations
 
 % Selection Function
 selectFn = 'normGeomSelect';
@@ -60,7 +60,7 @@ bounds = [sz];
 gaOpts=[1e-6 1 1];
 
 % Generate an intialize population of size 20 & use scoring
-startPop = initializeoga(80,bounds,'tracker',[1e-6 1]);
+startPop = initializeoga(150,bounds,'tracker',[1e-6 1]);
 
 % Lets run the GA
 %Hit a return to continue

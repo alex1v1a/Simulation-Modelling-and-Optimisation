@@ -1,4 +1,9 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Terrace End School Points Course\relax }}{1}{figure.caption.3}
-\contentsline {figure}{\numberline {3}{\ignorespaces Import the dist matrices to orderBasedExample\relax }}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {4}{\ignorespaces Preform Genetic Algorithm and call function "tracker" for scoring\relax }}{4}{figure.caption.5}
-\contentsline {figure}{\numberline {5}{\ignorespaces Tracker function, used to check position and calculate points Note Penalty changed to 30 seconds (stream error before screenshot taken and edited)\relax }}{5}{figure.caption.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Results produced from Matlab, scores\relax }}{3}{figure.caption.4}
+\contentsline {figure}{\numberline {4}{\ignorespaces A map of paths taken and best path found\relax }}{4}{figure.caption.5}
+\contentsline {figure}{\numberline {5}{\ignorespaces Plot of the best over time\relax }}{4}{figure.caption.6}
+\contentsline {figure}{\numberline {6}{\ignorespaces Import the dist matrices to orderBasedExample\relax }}{5}{figure.caption.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces Preform Genetic Algorithm and call function "tracker" for scoring\relax }}{5}{figure.caption.8}
+\contentsline {figure}{\numberline {8}{\ignorespaces Tracker function, used to check position and calculate points Note Penalty changed to 30 seconds (stream error before screenshot taken and edited) - Location initial and current swapped on distmatrix line*\relax }}{6}{figure.caption.9}
+\contentsline {figure}{\numberline {9}{\ignorespaces Code Tweaks - Scoring would through errors if positive so -1000 used to store and calculation done after for output\relax }}{7}{figure.caption.10}
+\contentsline {figure}{\numberline {10}{\ignorespaces Short math to display actual results\relax }}{7}{figure.caption.11}
