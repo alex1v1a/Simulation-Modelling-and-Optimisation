@@ -1,38 +1,38 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A1/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.aux
+The top-level auxiliary file: /Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.aux
 The style file: ieeetr.bst
 Database file #1: ../references.bib
-You've used 5 entries,
+You've used 9 entries,
             1876 wiz_defined-function locations,
-            500 strings with 4510 characters,
-and the built_in function-call counts, 682 in all, are:
-= -- 65
-> -- 20
+            515 strings with 4884 characters,
+and the built_in function-call counts, 1210 in all, are:
+= -- 117
+> -- 36
 < -- 0
-+ -- 10
-- -- 5
-* -- 22
-:= -- 106
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 5
++ -- 18
+- -- 9
+* -- 38
+:= -- 182
+add.period$ -- 18
+call.type$ -- 9
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 20
-empty$ -- 91
-format.name$ -- 5
-if$ -- 171
+cite$ -- 9
+duplicate$ -- 36
+empty$ -- 163
+format.name$ -- 9
+if$ -- 307
 int.to.chr$ -- 0
-int.to.str$ -- 5
+int.to.str$ -- 9
 missing$ -- 0
-newline$ -- 23
-num.names$ -- 5
-pop$ -- 35
+newline$ -- 39
+num.names$ -- 9
+pop$ -- 63
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 15
+skip$ -- 27
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -41,6 +41,6 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 6
-write$ -- 47
+while$ -- 9
+width$ -- 10
+write$ -- 83

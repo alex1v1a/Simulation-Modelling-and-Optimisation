@@ -1,0 +1,145 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdftex 2017.3.12)  21 SEP 2017 01:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**references.bib
+(./references.bib
+./references.bib:11: Undefined control sequence.
+l.11 	howpublished="\url
+                        {http://www.eplastics.com/plexiglass_glue}",
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./references.bib:11: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.11 ..."\url{http://www.eplastics.com/plexiglass_
+                                                  glue}",
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./references.bib:11: Extra }, or forgotten $.
+l.11 ...{http://www.eplastics.com/plexiglass_glue}
+                                                  ",
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./references.bib:13: Extra }, or forgotten $.
+l.13 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./references.bib:14: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.14 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (93.16011pt too wide) in paragraph at lines 8--14
+[]\tenrm @misceplastics, au-thor = ePlas-tics, ti-tle=Surface bond-ing, howpublished="http://www.eplastics.com/plexiglass$[]\teni lue\tenrm "\teni ; note \tenrm =|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+./references.bib:18: Undefined control sequence.
+l.18 	howpublished="\url
+                        {http://www.awardplastics.co.nz/shop/Plastic+Fabrica...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (457.76082pt too wide) in paragraph at lines 15--21
+[]\tenrm @misc105, au-thor = Award Plas-tics, ti-tle=105 ACRI-BOND, how-pub-lished="http://www.awardplastics.co.nz/shop/Plastic+Fabrication/Adhesives++Cleaners/Plastic+Glues/105+Acribond+0.5L+Tin.html",|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+./references.bib:25: Undefined control sequence.
+l.25 	howpublished="\url
+                        {http://www.awardplastics.co.nz/shop/Plastic+Fabrica...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (474.98308pt too wide) in paragraph at lines 22--28
+[]\tenrm @misc110, au-thor = Award Plas-tics, ti-tle=110 ACRI-BOND, how-pub-lished="http://www.awardplastics.co.nz/shop/Plastic+Fabrication/Adhesives++Cleaners/Plastic+Glues/110+Acribond+100mL+Tube.html",|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+./references.bib:32: Undefined control sequence.
+l.32 	howpublished="\url
+                        {https://www.autodesk.com/products/eagle/overview}",
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (111.52289pt too wide) in paragraph at lines 29--35
+[]\tenrm @misceagle, au-thor = Au-todesk, ti-tle=Eagle PCB de-sign, how-pub-lished="https://www.autodesk.com/products/eagle/overview",|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm s
+.etc.
+
+./references.bib:39: Undefined control sequence.
+l.39 	howpublished="\url
+                        {http://www.itftennis.com/technical/balls/approval-t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> references.bib
+                  
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!

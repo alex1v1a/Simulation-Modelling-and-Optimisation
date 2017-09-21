@@ -1,0 +1,11 @@
+Marc Alexander Sferrazza 12164165 ROS Workspace
+
+Due to limitation of file size please use the Google Drive link below - total folder under 200mb
+
+https://drive.google.com/open?id=0B69a9wkwYwYZN0Jfd1RlNUNPajA
+
+Please note the gazebo folder is .gazebo changed from hidden incase missed - please change this back etc to work with scripts.
+
+Please use the bash run script followed by the bash runn script in 2 terminals for best results, you can then navigate the RVIZ pose waypoints from the PoseArray 2D Pose Estimate button and add points accordingly, then to follow waypoints use this command in a thrid terminal
+
+rostopic pub /path_ready std_msgs/Empty -1

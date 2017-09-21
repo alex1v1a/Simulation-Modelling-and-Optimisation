@@ -1,9 +1,10 @@
 \BOOKMARK [1][-]{section.1}{INTRODUCTION}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Installation}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.1}{SLAM and Gmapping}{section.1}% 2
 \BOOKMARK [1][-]{section.2}{METHOD}{}% 3
-\BOOKMARK [2][-]{subsection.2.1}{Block Diagram of running model}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.2}{ROSCORE}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.3}{ROS Nodes \(Plugins\)}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.4}{Teleop Node Robot Control with Rviz}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{OUTCOMES}{}% 8
-\BOOKMARK [1][-]{section.4}{CONCLUSIONS}{}% 9
+\BOOKMARK [2][-]{subsection.2.1}{Laser Scanner SDF}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Pre-Requisites}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Navigation and Waypoints \(Plugins\)}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.4}{Pose Array Robot Control with Rviz}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.5}{Custom Bash Scripts}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{OUTCOMES}{}% 9
+\BOOKMARK [1][-]{section.4}{CONCLUSIONS}{}% 10

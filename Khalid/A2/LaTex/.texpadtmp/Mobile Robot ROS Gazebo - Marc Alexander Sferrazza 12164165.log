@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.12)  23 AUG 2017 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.12)  22 SEP 2017 03:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -446,7 +446,7 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \mc@col@check@num=\count128
 ) (/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.aux
 
-LaTeX Warning: Label `fig:A demo showing the cmd vel node being executed, output from the moving model' multiply defined.
+LaTeX Warning: Label `fig:Issue discovered with the optimal running frequency' multiply defined.
 
 )
 \openout1 = `"Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.aux"'.
@@ -607,14 +607,14 @@ Underfull \hbox (badness 2277) in paragraph at lines 38--38
 [][]\OT1/ptm/m/n/8 Faculty of Mecha-tron-ics En-gi-neer-ing, Massey Uni-ver-sity, Al-bany, Auck-land, New Zealand \OT1/pcr/m/n/9 Progress of project:
  []
 
-<images/ROS.png, id=40, 682.55pt x 366.36874pt>
+<images/ROS.png, id=44, 682.55pt x 366.36874pt>
 File: images/ROS.png Graphic file (type png)
  <use images/ROS.png>
 Package pdftex.def Info: images/ROS.png used on input line 40.
 (pdftex.def)             Requested size: 339.72592pt x 182.35655pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
- <images/gazebo.png, id=42, 196.735pt x 282.656pt>
+ <images/gazebo.png, id=46, 196.735pt x 282.656pt>
 File: images/gazebo.png Graphic file (type png)
  <use images/gazebo.png>
 Package pdftex.def Info: images/gazebo.png used on input line 45.
@@ -624,7 +624,7 @@ Overfull \hbox (1.90002pt too wide) in paragraph at lines 39--51
 []$[]$ $[]$ 
  []
 
-<images/kinetic.png, id=43, 2525.435pt x 2091.815pt>
+<images/kinetic.png, id=47, 2525.435pt x 2091.815pt>
 File: images/kinetic.png Graphic file (type png)
  <use images/kinetic.png>
 Package pdftex.def Info: images/kinetic.png used on input line 54.
@@ -636,152 +636,167 @@ Package pdftex.def Info: images/kinetic.png used on input line 54.
 \tf@toc=\write4
 \openout4 = `"Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.toc"'.
 
+ (/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.lof)
+\tf@lof=\write5
+\openout5 = `"Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.lof"'.
+
  [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
- <images/Install.png, id=72, 396.48125pt x 453.695pt>
-File: images/Install.png Graphic file (type png)
- <use images/Install.png>
-Package pdftex.def Info: images/Install.png used on input line 108.
-(pdftex.def)             Requested size: 226.48395pt x 259.16959pt.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 104.
+
+Underfull \hbox (badness 4366) in paragraph at lines 113--114
+[]$\OML/ztmcm/m/it/10 https \OT1/ztmcm/m/n/10 : \OML/ztmcm/m/it/10 ==ocw:mit:edu=courses=aeronautics \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 and \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 astronautics=\OT1/ztmcm/m/n/10 16 \OMS/ztmcm/m/n/10 ^^@ \OT1/ztmcm/m/n/10 412\OML/ztmcm/m/it/10 j \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 cognitive \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 robotics \OMS/ztmcm/m/n/10 ^^@
+ []
+
+<images/RobotSetup.png, id=93, 626.34pt x 256.157pt>
+File: images/RobotSetup.png Graphic file (type png)
+ <use images/RobotSetup.png>
+Package pdftex.def Info: images/RobotSetup.png used on input line 120.
+(pdftex.def)             Requested size: 452.9679pt x 185.2576pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \clearpage
+l.127 \clearpage
                  [1
 
 
 
 
- <./images/Install.png>] <images/Block.png, id=78, 511.9125pt x 697.60625pt>
-File: images/Block.png Graphic file (type png)
- <use images/Block.png>
-Package pdftex.def Info: images/Block.png used on input line 127.
-(pdftex.def)             Requested size: 362.37569pt x 493.8243pt.
+ <./images/RobotSetup.png>] <images/laser.png, id=101, 634.37pt x 874.26625pt>
+File: images/laser.png Graphic file (type png)
+ <use images/laser.png>
+Package pdftex.def Info: images/laser.png used on input line 142.
+(pdftex.def)             Requested size: 317.07614pt x 436.99864pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.133 
+l.154 
        [2
 
- <./images/Block.png>] <images/BlockDiagram.png, id=84, 708.6475pt x 460.72125pt>
-File: images/BlockDiagram.png Graphic file (type png)
- <use images/BlockDiagram.png>
-Package pdftex.def Info: images/BlockDiagram.png used on input line 135.
-(pdftex.def)             Requested size: 362.37569pt x 235.59743pt.
- <images/rqtgraph.png, id=85, 470.75874pt x 246.9225pt>
-File: images/rqtgraph.png Graphic file (type png)
- <use images/rqtgraph.png>
-Package pdftex.def Info: images/rqtgraph.png used on input line 143.
-(pdftex.def)             Requested size: 362.37569pt x 190.07437pt.
- [3 <./images/BlockDiagram.png> <./images/rqtgraph.png>] <images/ROSCORE.png, id=94, 1609.01125pt x 1053.9375pt>
-File: images/ROSCORE.png Graphic file (type png)
- <use images/ROSCORE.png>
-Package pdftex.def Info: images/ROSCORE.png used on input line 157.
-(pdftex.def)             Requested size: 317.07614pt x 207.67998pt.
- <images/ROSCORE2.png, id=95, 694.595pt x 432.61626pt>
-File: images/ROSCORE2.png Graphic file (type png)
- <use images/ROSCORE2.png>
-Package pdftex.def Info: images/ROSCORE2.png used on input line 163.
-(pdftex.def)             Requested size: 317.07614pt x 197.48763pt.
- [4
+ <./images/laser.png>] <images/pgm.png, id=106, 261.97874pt x 312.16624pt>
+File: images/pgm.png Graphic file (type png)
+ <use images/pgm.png>
+Package pdftex.def Info: images/pgm.png used on input line 163.
+(pdftex.def)             Requested size: 181.18439pt x 215.89984pt.
+ <images/mapping.png, id=107, 279.0425pt x 232.87pt>
+File: images/mapping.png Graphic file (type png)
+ <use images/mapping.png>
+Package pdftex.def Info: images/mapping.png used on input line 168.
+(pdftex.def)             Requested size: 258.195pt x 215.47954pt.
+ [3 <./images/pgm.png> <./images/mapping.png>] <images/room1.png, id=115, 547.04375pt x 382.42876pt>
+File: images/room1.png Graphic file (type png)
+ <use images/room1.png>
+Package pdftex.def Info: images/room1.png used on input line 186.
+(pdftex.def)             Requested size: 203.83417pt x 142.49426pt.
+ <images/room2.png, id=116, 1258.7025pt x 735.74875pt>
+File: images/room2.png Graphic file (type png)
+ <use images/room2.png>
+Package pdftex.def Info: images/room2.png used on input line 191.
+(pdftex.def)             Requested size: 249.13371pt x 145.62032pt.
 
- <./images/ROSCORE.png> <./images/ROSCORE2.png>] <images/Plugin.png, id=103, 812.03375pt x 396.48125pt>
-File: images/Plugin.png Graphic file (type png)
- <use images/Plugin.png>
-Package pdftex.def Info: images/Plugin.png used on input line 180.
-(pdftex.def)             Requested size: 317.07614pt x 154.8146pt.
- <images/Plugin2.png, id=104, 820.06375pt x 1027.84pt>
-File: images/Plugin2.png Graphic file (type png)
- <use images/Plugin2.png>
-Package pdftex.def Info: images/Plugin2.png used on input line 186.
-(pdftex.def)             Requested size: 317.07614pt x 397.4213pt.
- [5
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 185--194
+[][]  [] 
+ []
 
- <./images/Plugin.png> <./images/Plugin2.png>] <images/laser.png, id=113, 931.48pt x 662.475pt>
-File: images/laser.png Graphic file (type png)
- <use images/laser.png>
-Package pdftex.def Info: images/laser.png used on input line 198.
-(pdftex.def)             Requested size: 362.37569pt x 257.71727pt.
- <images/laserdemo.png, id=114, 734.745pt x 486.81876pt>
-File: images/laserdemo.png Graphic file (type png)
- <use images/laserdemo.png>
-Package pdftex.def Info: images/laserdemo.png used on input line 206.
-(pdftex.def)             Requested size: 362.37569pt x 240.10321pt.
- [6
-
- <./images/laser.png> <./images/laserdemo.png>] <images/odomcode.png, id=123, 538.01pt x 554.07pt>
-File: images/odomcode.png Graphic file (type png)
- <use images/odomcode.png>
-Package pdftex.def Info: images/odomcode.png used on input line 217.
-(pdftex.def)             Requested size: 362.37569pt x 373.19485pt.
- <images/cmdvelcode.png, id=124, 724.7075pt x 285.065pt>
-File: images/cmdvelcode.png Graphic file (type png)
- <use images/cmdvelcode.png>
-Package pdftex.def Info: images/cmdvelcode.png used on input line 225.
-(pdftex.def)             Requested size: 362.37569pt x 142.54085pt.
- [7
-
- <./images/odomcode.png> <./images/cmdvelcode.png>] <images/exe.png, id=133, 875.27pt x 651.43375pt>
-File: images/exe.png Graphic file (type png)
- <use images/exe.png>
-Package pdftex.def Info: images/exe.png used on input line 234.
-(pdftex.def)             Requested size: 362.37569pt x 269.7038pt.
- <images/cmdvelsub.png, id=134, 1482.53876pt x 916.42375pt>
-File: images/cmdvelsub.png Graphic file (type png)
- <use images/cmdvelsub.png>
-Package pdftex.def Info: images/cmdvelsub.png used on input line 242.
-(pdftex.def)             Requested size: 362.37569pt x 223.98741pt.
- [8
-
- <./images/exe.png> <./images/cmdvelsub.png>] <images/Teleop.png, id=143, 633.36626pt x 543.02875pt>
-File: images/Teleop.png Graphic file (type png)
- <use images/Teleop.png>
-Package pdftex.def Info: images/Teleop.png used on input line 257.
-(pdftex.def)             Requested size: 317.07614pt x 271.85342pt.
- <images/Position.png, id=144, 1927.2pt x 1044.90375pt>
-File: images/Position.png Graphic file (type png)
- <use images/Position.png>
-Package pdftex.def Info: images/Position.png used on input line 263.
-(pdftex.def)             Requested size: 452.9679pt x 245.5843pt.
- [9
-
- <./images/Teleop.png> <./images/Position.png>] <images/rvizlaser.png, id=152, 1601.985pt x 928.46875pt>
+<images/rvizlaser.png, id=117, 1389.19pt x 821.0675pt>
 File: images/rvizlaser.png Graphic file (type png)
  <use images/rvizlaser.png>
-Package pdftex.def Info: images/rvizlaser.png used on input line 275.
-(pdftex.def)             Requested size: 362.37569pt x 210.01567pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
- [10
+Package pdftex.def Info: images/rvizlaser.png used on input line 203.
+(pdftex.def)             Requested size: 362.37569pt x 214.1741pt.
+ <images/rviz.png, id=118, 995.72pt x 637.38126pt>
+File: images/rviz.png Graphic file (type png)
+ <use images/rviz.png>
+Package pdftex.def Info: images/rviz.png used on input line 213.
+(pdftex.def)             Requested size: 452.9679pt x 289.9603pt.
+ <images/waypoint.png, id=119, 971.63pt x 562.1pt>
+File: images/waypoint.png Graphic file (type png)
+ <use images/waypoint.png>
+Package pdftex.def Info: images/waypoint.png used on input line 219.
+(pdftex.def)             Requested size: 452.9679pt x 262.0428pt.
+ [4
 
- <./images/rvizlaser.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
+ <./images/room1.png> <./images/room2.png> <./images/rvizlaser.png>] [5 <./images/rviz.png> <./images/waypoint.png>] <images/error.png, id=136, 844.15375pt x 441.65pt>
+File: images/error.png Graphic file (type png)
+ <use images/error.png>
+Package pdftex.def Info: images/error.png used on input line 238.
+(pdftex.def)             Requested size: 362.37569pt x 189.5958pt.
+ <images/total.png, id=137, 1686.3pt x 963.6pt>
+File: images/total.png Graphic file (type png)
+ <use images/total.png>
+Package pdftex.def Info: images/total.png used on input line 246.
+(pdftex.def)             Requested size: 362.37569pt x 207.06703pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
+
+ <./images/error.png> <./images/total.png>] <images/run.png, id=144, 859.21pt x 660.4675pt>
+File: images/run.png Graphic file (type png)
+ <use images/run.png>
+Package pdftex.def Info: images/run.png used on input line 258.
+(pdftex.def)             Requested size: 362.37569pt x 278.5534pt.
+ <images/runn.png, id=145, 592.2125pt x 211.79124pt>
+File: images/runn.png Graphic file (type png)
+ <use images/runn.png>
+Package pdftex.def Info: images/runn.png used on input line 266.
+(pdftex.def)             Requested size: 362.37569pt x 129.59966pt.
+ [7 <./images/run.png> <./images/runn.png>] <images/demo.png, id=152, 1926.19624pt x 1047.915pt>
+File: images/demo.png Graphic file (type png)
+ <use images/demo.png>
+Package pdftex.def Info: images/demo.png used on input line 293.
+(pdftex.def)             Requested size: 452.9679pt x 246.41995pt.
+ [8
+
+ <./images/demo.png>] (/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.bbl
+Underfull \hbox (badness 2103) in paragraph at lines 14--17
+[]\OT1/ptm/m/n/9 ROS, ``Ros tu-to-rial how to build a map us-ing logged data.'' []$\OT1/pcr/m/n/9 http : / / wiki . ros . org / slam _ gmapping /
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 24--27
+[]\OT1/ptm/m/n/9 ROS, ``Ros tu-to-rial setup and con-fig-u-ra-tion of the nav-i-ga-tion stack on a robot.'' []$\OT1/pcr/m/n/9 http : / / wiki . ros . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+[]\OT1/ptm/m/n/9 ROS, ``Github repo for fol-low way-points used.'' []$\OT1/pcr/m/n/9 $https : / / github . com / danielsnider / follow _
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+ [9
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
  (/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
 Package rerunfilecheck Info: File `"Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
  ) 
 Here is how much of TeX's memory you used:
- 10792 strings out of 493014
- 167253 string characters out of 6133351
- 263135 words of memory out of 5000000
- 14096 multiletter control sequences out of 15000+600000
- 38822 words of font info for 83 fonts, out of 8000000 for 9000
+ 10804 strings out of 493014
+ 168050 string characters out of 6133351
+ 265553 words of memory out of 5000000
+ 14091 multiletter control sequences out of 15000+600000
+ 43764 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,77p,598b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.pdf" (12 pages, 7062166 bytes).
+ 42i,13n,77p,649b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "/Users/FLCL/Documents/University 2017/Simulation-Modelling-and-Optimisation/Khalid/A2/LaTex/.texpadtmp/Mobile Robot ROS Gazebo - Marc Alexander Sferrazza 12164165.pdf" (11 pages, 4395930 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 

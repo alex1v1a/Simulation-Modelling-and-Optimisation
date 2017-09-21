@@ -1,0 +1,8 @@
+\contentsline {figure}{\numberline {2}{\ignorespaces RobotSetup tutorial navigation stack setup\relax }}{1}{figure.caption.3}
+\contentsline {figure}{\numberline {3}{\ignorespaces The model iRobot create sdf 1.4 version is used, the Hokuyo URG laser scanner is used\relax }}{2}{figure.caption.4}
+\contentsline {figure}{\numberline {6}{\ignorespaces Rviz passed waypoints to the navigation stack\relax }}{4}{figure.caption.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Issue discovered with the optimal running frequency\relax }}{6}{figure.caption.9}
+\contentsline {figure}{\numberline {9}{\ignorespaces Issue discovered with the optimal running frequency\relax }}{6}{figure.caption.10}
+\contentsline {figure}{\numberline {10}{\ignorespaces "run" first bash script\relax }}{7}{figure.caption.11}
+\contentsline {figure}{\numberline {11}{\ignorespaces "runn" seccond bash script\relax }}{7}{figure.caption.12}
+\contentsline {figure}{\numberline {12}{\ignorespaces A demo showing the full working model following waypoint goals\relax }}{8}{figure.caption.13}

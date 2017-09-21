@@ -1,27 +1,48 @@
 \begin{thebibliography}{1}
 
-\bibitem{eplastics}
-ePlastics, ``Surface bonding.'' \url{http://www.eplastics.com/plexiglass_glue}.
-\newblock [Online; accessed 06-May-2017].
+\bibitem{ROS1}
+ROS, ``Ros tutorial slam map building with turtlebot.''
+  \url{http://wiki.ros.org/turtlebot_navigation/Tutorials/Build%20a%20map%20with%20SLAM}.
+\newblock [Online; accessed 18-Aug-2017].
 
-\bibitem{105}
-A.~Plastics, ``105 acribond.''
-  \url{http://www.awardplastics.co.nz/shop/Plastic+Fabrication/Adhesives++Cleaners/Plastic+Glues/105+Acribond+0.5L+Tin.html}.
-\newblock [Online; accessed 19-July-2015].
+\bibitem{ROS2}
+ROS, ``Ros tutorial how to use gmapping to build a map.''
+  \url{http://answers.ros.org/question/117396/how-to-use-gmapping-to-build-a-map/}.
+\newblock [Online; accessed 18-Aug-2017].
 
-\bibitem{110}
-A.~Plastics, ``110 acribond.''
-  \url{http://www.awardplastics.co.nz/shop/Plastic+Fabrication/Adhesives++Cleaners/Plastic+Glues/110+Acribond+100mL+Tube.html}.
-\newblock [Online; accessed 19-July-2015].
+\bibitem{ROS3}
+ROS, ``Ros tutorial how to build a map using logged data.''
+  \url{http://wiki.ros.org/slam_gmapping/Tutorials/MappingFromLoggedData}.
+\newblock [Online; accessed 18-Aug-2017].
 
-\bibitem{eagle}
-Autodesk, ``Eagle pcb design.''
-  \url{https://www.autodesk.com/products/eagle/overview}.
-\newblock [Online; accessed 01-June-2017].
+\bibitem{ROS4}
+ROS, ``Ros tutorial how to build a map using logged data 2.''
+  \url{http://wiki.ros.org/slam_gmapping/Tutorials/MappingFromLoggedData#download}.
+\newblock [Online; accessed 18-Aug-2017].
 
-\bibitem{ball}
-T.~I. T.~F. (ITF), ``The official diameter of a tennis ball.''
-  \url{http://www.itftennis.com/technical/balls/approval-tests.aspx}.
-\newblock [Online; accessed 16-May-2017].
+\bibitem{ROS5}
+ROS, ``Ros tutorial setup and configuration of the navigation stack on a
+  robot.'' \url{http://wiki.ros.org/navigation/Tutorials/RobotSetup}.
+\newblock [Online; accessed 18-Aug-2017].
+
+\bibitem{ROS6}
+ROS, ``Ros tutorial what does tf do why should i use tf.''
+  \url{http://wiki.ros.org/tf}.
+\newblock [Online; accessed 18-Aug-2017].
+
+\bibitem{ROS7}
+ROS, ``Ros tutorial sending goals to the navigation stack.''
+  \url{http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals}.
+\newblock [Online; accessed 18-Aug-2017].
+
+\bibitem{ROS8}
+ROS, ``Ros tutorial follow waypoints.''
+  \url{http://wiki.ros.org/follow_waypoints}.
+\newblock [Online; accessed 18-Aug-2017].
+
+\bibitem{ROS9}
+ROS, ``Github repo for follow waypoints used.''
+  \url{$https://github.com/danielsnider/follow_waypoints$}.
+\newblock [Online; accessed 18-Aug-2017].
 
 \end{thebibliography}
