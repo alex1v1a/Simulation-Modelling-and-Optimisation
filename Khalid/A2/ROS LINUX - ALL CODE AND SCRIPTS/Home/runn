@@ -1,0 +1,16 @@
+#!/din/bash
+
+echo "Saving map file..."
+rosrun map_server map_saver -f /home/parallels/catkin_ws/src/my_robot_name_2dnav/ &
+pid=$!
+sleep 5s
+
+echo "Move Base"
+cd /home/parallels/catkin_ws/src/my_robot_name_2dnav/
+roslaunch move_base.launch
+pid=$!
+sleep 5s
+
+#trap "echo...; kill -2 $pid; exit" SIGINT SIGTERM
+
+sleep 24h

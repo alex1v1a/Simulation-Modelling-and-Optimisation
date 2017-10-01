@@ -1,0 +1,78 @@
+#!/din/bash
+
+echo "Running RosCore..."
+roscore &
+pid=$!
+sleep 5s
+
+echo "Running Gazebo..."
+rosparam set use_sim_time true
+rosrun gazebo_ros gazebo &
+pid=$!
+sleep 10s
+
+#echo "Running ..."
+#roslaunch rosaria run_aria &
+#pid=$!
+#sleep 5s
+
+#echo "Running RosAria..."
+#rosrun rosaria &
+#pid=$!
+#sleep 5s
+
+echo "Importing model..."
+rosrun gazebo_ros spawn_model -file /home/parallels/.gazebo/models/create/model-1_4.sdf -sdf -model create &
+pid=$!
+sleep 10s
+
+echo "Importing model..."
+rosrun gazebo_ros spawn_model -file /home/parallels/.gazebo/models/willowgarage/model-1_4.sdf -sdf -model willowgarage &
+pid=$!
+sleep 10s
+
+echo "Creating Transforms.."
+rosrun tf static_transform_publisher 0 0 0.5 0 0 0 base_link base_laser 100 &
+pid=$!
+sleep 1s
+rosrun tf static_transform_publisher 0 0 1 0 0 0 base_footprint base_link 100 &
+pid=$!
+sleep 1s
+#rosrun tf static_transform_publisher 0 0 0 0 0 0 map odom 100 &
+#pid=$!
+#sleep 1s
+
+echo "Running Rviz..."
+rviz &
+pid=$!
+sleep 5s
+
+echo "Topic List..."
+rostopic list &
+pid=$!
+sleep 5s
+
+echo "Launching GMAP"
+rosrun gmapping slam_gmapping &
+pid=$!
+sleep 5s
+
+echo "Follow Waypoints"
+roslaunch follow_waypoints follow_waypoints.launch
+pid=$!
+sleep 85s
+
+#echo "Running Teleop..."
+#rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+#pid=$!
+#sleep 5s
+
+echo "Finding Waypoints..."
+rostopic pub /path_ready std_msgs/Empty -1
+pid=$!
+sleep 5s
+
+
+##trap "echo...; kill -2 $pid; exit" SIGINT SIGTERM
+
+sleep 24h

@@ -1,0 +1,13 @@
+Gazebo multi-robot simulator, version 7.8.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1505887383 612892927) [Msg] Waiting for master.
+(1505887383 620919894) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1505887383 621122534) [Msg] Publicized address: 10.211.55.3
+(1505887386 588015139) Init world[default]
+(1505887389 489166896) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/physics/contacts, deleting message. This warning is printed only once.
+(1505889158 855374752) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/create/hokuyo_link/laser/scan, deleting message. This warning is printed only once.
+(1505965149 881456070) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/pose/info, deleting message. This warning is printed only once.
