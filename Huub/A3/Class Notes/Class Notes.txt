@@ -1,0 +1,43 @@
+Huub A3
+
+100 steps,
+
+1-2 hours
+
+impulse
+
+ends are stationary
+
+non reflecting boundary
+
+how to find errors - what is causing the errors.
+
+
+
+on Mars
+
+2 moons, phobos and edbos
+
+70,000km long
+
+simulate this tower and wiggle it out of the moon
+
+check the equations on the sheet
+
+tower is like a long string, we can use wave equation which describes the long string - but we cant use tension because changes from bottom to top
+
+Max tension at top and least at bottom
+
+use the equations given and solve from 0 at ground level, to the end the next 0 will be the top of the point
+
+1. Solutions for tension
+
+2. wave equation (K constant isn't a constant) create a difference equation to move through time and along the tower.
+
+Solution space for partial differential equation
+
+a b & c matrix row by row.
+
+6 units per 600 seconds
+
+look for units out by a factor of 1000
